@@ -13,11 +13,13 @@ jobs:
       - name: Check out repository
         uses: actions/checkout@v2
 
+      # Configures the Node.js environment using Node.js version 18.x, which is compatible with Next.js
       - name: Use Node.js 18.x
         uses: actions/setup-node@v2
         with:
           node-version: 18
 
+      # Runs `npm install` with the `--legacy-peer-deps` flag to bypass peer dependency conflicts
       - name: Install dependencies
         run: npm install --legacy-peer-deps
 
