@@ -2,6 +2,7 @@
   "name": "production-reports-2",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://rajjyarohan10.github.io/next-report-app/"
   "scripts": {
     "dev": "next dev --turbopack",
     "build": "next build",
